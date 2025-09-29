@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MATERIO</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+    <header>
+
+        <button class="hamburger" onclick="toggleSidebar()">
+            <i class="fa fa-bars"></i>
+        </button>
+
+
+        <div class="logo">
+            <a href="#" class="M-logo">
+                <img src="logo.jpeg" alt="M Logo" class="logo-img" />
+                MATERIO
+            </a>
+        </div>
+            <div class="search-bar">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Search...">
+            </div>
+            <div class="side-icons clearfix">
+                <div class="theme-icon">
+                    <a href="#"><i class="fa-solid fa-moon"></i></a>
+                </div>
+                <div class="notification-icon">
+                    <a href="#"><i class="fa-solid fa-bell"></i></a>
+                </div>
+                <div class="user-avatar">
+                    <img src="profile.png" alt="User Avatar" class="avatar">
+                </div>
+            </div>
+        </header>
+    <section class="side-bar clearfix">
+
+        <div class="dashboard-header">
+            <i class="fa fa-home"></i> 
+            <span>Dashboard</span>
+        </div>
+        <nav class="navigation">
+            <ul>
+                <li><a href="#"><i class="fa fa-cog"></i>Account Settings</a></li>
+            </ul>
+            <h4 class="nav-pages">PAGES</h4>
+            <ul>
+                <li><a href="#"><i class="fa fa-sign-in"></i>Login</a></li>
+                <li><a href="#"><i class="fa fa-user-plus"></i>Register</a></li>
+                <li><a href="#"><i class="fa fa-exclamation-circle"></i>Error</a></li>
+            </ul>
+            <h4 class="nav-user">USER INTERFACE</h4>
+            <ul>
+                <li><a href="#"><i class="fa-solid fa-font"></i>Typography</a></li>
+                <li><a href="#"><i class="fa fa-cubes"></i>Icons</a></li>
+                <li><a href="#"><i class="fa fa-credit-card-alt" aria-hidden="true"></i>Cards</a></li>
+                <li><a href="#"><i class="fa fa-table"></i>Tables</a></li>
+                <li><a href="#"><i class="fa fa-cube"></i>Form Layouts</a></li>
+            </ul>
+        </nav>
+    </section>
+    <section class="main-section clearfix">
+        
+        <main class="dashboard-contents">
+            <div class="first-div clearfix">
+                <div class="card-one shade">
+                    <div class="content">
+                        <h3>Congratulations John! &#129395;</h3>
+                        <p class="sub-para">Best seller of the month</p>
+                        <p class="number-para"><strong>$42.8k</strong></p>
+                        <button class="primary-btn view-btn">VIEW SALES</button>
+                    </div>
+                    <figure class="trophy">
+                        <img src="trophy.png" alt="Image of a trophy emoji">
+                    </figure>
+                </div>
+                <div class="card-two">
+                    <div class="cardtwo-top">
+                        <h3>Statistics Card</h3>
+                        <p class="sub-para"><strong>Total 48.5% growth </strong>&#x1F60E; this month</p>
+                    </div>
+                    <div class="cardtwo-bottom">
+                       <ul>
+                        <li>
+                            <figure class="rectangle-icon">
+                                <img src="arrow-growth.svg" alt="sales growth" class="icon">
+                            </figure>
+                            <div class="recicon-content">
+                                <h5>Sales</h5>
+                                <p><strong>245k</strong></p>
+                            </div>
+                        </li>
+                        <li>
+                            <figure class="rectangle-icon">
+                                <img src="customer.jpeg" alt="sales growth" class="icon">
+                            </figure>
+                            <div class="recicon-content">
+                                <h5>Sales</h5>
+                                <p><strong>245k</strong></p>
+                            </div>
+                        </li>
+                        <li>
+                            <figure class="rectangle-icon">
+                                <img src="products.jpeg" alt="sales growth" class="icon">
+                            </figure>
+                            <div class="recicon-content">
+                                <h5>Products</h5>
+                                <p><strong>245k</strong></p>
+                            </div>
+                        </li>
+                        <li>
+                            <figure class="rectangle-icon">
+                                <img src="revanue.jpeg" alt="sales growth" class="icon">
+                            </figure>
+                            <div class="recicon-content">
+                                <h5>Revenue</h5>
+                                <p><strong>245k</strong></p>
+                            </div>
+                        </li>
+                       </ul>
+                    </div>
+
+                </div>
+            </div>
+            <div class="second-div">
+                <div class="weekly-overview clearfix">
+                    <h3>Weekly Overview</h3>
+                    <figure class="chart-image">
+                        <img src="growthchart.jpeg" alt="chart showing weekly Overview">
+                    </figure>
+                    <div class="sub-caption">
+                        <p class="number-45">45%</p>
+                        <p class="chart-caption">Your sales performance is 45% &#x1F60E; better compared to last month</p>
+                    </div>
+                    <button class="primary-btn details">DETAILS</button>
+
+
+                </div>
+                <div class="total-earning">
+                    <div class="top">
+                        <h3>Total Earning</h3>
+                        <p class="amount">$24,895 <span class="growth"><i class="fa-solid fa-caret-up"></i> +10%</span></p>
+                        <p class="grey">Compared to $84,325 last year</p>
+                    </div>
+                    <div class="bottom clearfix">
+                        <ul>
+                            <li >
+                                <div class="left">
+                                    <figure class="rectangle-icon second-row">
+                                        <img src="zipcar.jpeg" alt="logo of zip car" class="icon">
+                                    </figure>
+                                    <div class="recicon-content">
+                                        <h5>Zipcar</h5>
+                                        <p class="grey">Vuejs, React & HTML</p>
+                                    </div>
+                                </div>
+                                <div class="right">
+                                    <p class="right-number">$24,895.65</p>
+                                    <div class="colored-line one"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="left">
+                                    <figure class="rectangle-icon second-row">
+                                        <img src="spark.jpeg" alt="logo of BitBank" class="icon">
+                                    </figure>
+                                    <div class="recicon-content">
+                                        <h5>BitBank</h5>
+                                        <p class="grey">Sketch, Figma & XD</p>
+                                    </div>
+                                </div>
+                                <div class="right">
+                                    <p class="right-number">$8,650.20</p>
+                                    <div class="colored-line two"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="left">
+                                    <figure class="rectangle-icon second-row">
+                                        <img src="aviato.jpeg" alt="logo of BitBank" class="icon">
+                                    </figure>
+                                    <div class="recicon-content">
+                                        <h5>Aviato</h5>
+                                        <p class="grey">Sketch, Figma & XD</p>
+                                    </div>
+                                </div>
+                                <div class="right">
+                                    <p class="right-number">$8,650.20</p>
+                                    <div class="colored-line three"></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                </div>
+                <div class="small-cards">
+                    <div class="small-card-row">
+                        <div class="small-card total-profit">
+                            <div class="round-icon chart-bar">
+                                <span class="icon-bg-green">
+                                    <i class="fas fa-chart-bar"></i>
+                                </span>
+                            </div>
+                            <div class="three-dot">
+                                <i class="fas fa-ellipsis-v"></i>
+                            </div>
+                            <h4>Total Profit</h4>
+                            <p class="card-number"><strong>$25.6k</strong> <span class="growth">+42%</span></p>
+                            <p class="grey">Weekly Profit</p>
+
+                        </div>
+                        <div class="small-card refunds">
+                            <div class="round-icon dollar">
+                                
+                                    <i class="fa-solid fa-dollar-sign"></i>
+                                
+                            </div>
+                            <div class="three-dot">
+                                <i class="fas fa-ellipsis-v"></i>
+                            </div>
+                            <h4>Refunds</h4>
+                            <p class="card-number"><strong>$78k</strong><span class="loss">-15%</span></p>
+                            <p class="grey">Past Month</p>
+                        </div>
+                    </div>
+
+                    <div class="small-card-row">
+                        <div class="small-card new-project">
+                            <div class="round-icon briefcase">
+                                
+                                    <i class="fa-solid fa-briefcase"></i>
+                                
+                            </div>
+                            <div class="three-dot">
+                                <i class="fas fa-ellipsis-v"></i>
+                            </div>
+                            <h4>New Project</h4>
+                            <p class="card-number"><strong>862</strong> <span class="loss">-18%</span></p>
+                            <p class="grey">Yearly Project</p>
+                        </div>
+                        <div class="small-card sales-queries">
+                            <div class="round-icon question">
+                                
+                                    <i class="fa-solid fa-circle-question"></i>
+                               
+                            </div>
+                            <div class="three-dot">
+                                <i class="fas fa-ellipsis-v"></i>
+                            </div>
+                            <h4>Sales Queries</h4>
+                            <p class="card-number"><strong>15</strong> <span class="loss">-18%</span></p>
+                            <p class="grey">Last Week</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="third-div clearfix">
+                <div class="salesby-countries">
+                    <h3>Sales by Countries</h3>
+                    <div class="three-dot">
+                        <i class="fas fa-ellipsis-v"></i>
+                    </div>
+
+                    <ul>
+                        <li>
+                            <div class="countries">
+                                <div class="round-icon country-us">US</div>
+                                <span class="right-number">$8,656k <span class="growth">
+                                    <i class="fa fa-angle-up"></i>25.8%
+                                </span></p>
+                                <p class="grey">USA</p>
+
+                            </div>
+                            <div class="sales">
+                                <p class="right-number">894k</p>
+                                <p class="grey">Sales</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="countries">
+                                <div class="round-icon country-uk">UK</div>
+                                <p class="right-number">$2,415k <span class="loss">
+                                    <i class="fa fa-angle-down"></i>6.2%
+                                </span></p>
+                                <p class="grey">UK</p>
+
+                            </div>
+                            <div class="sales">
+                                <p class="right-number">645k</p>
+                                <p class="grey">Sales</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="countries">
+                                <div class="round-icon country-india">IN</div>
+                                <p class="right-number">$856k <span class="growth">
+                                    <i class="fa fa-angle-up"></i>12.4%
+                                </span></p>
+                                <p class="grey">India</p>
+
+                            </div>
+                            <div class="sales">
+                                <p class="right-number">148k</p>
+                                <p class="grey">Sales</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="countries">
+                                <div class="round-icon country-ja">JA</div>
+                                <p class="right-number">$745k <span class="loss">
+                                    <i class="fa fa-angle-down"></i>11.9%
+                                </span></p>
+                                <p class="grey">japan</p>
+
+                            </div>
+                            <div class="sales">
+                                <p class="right-number">86k</p>
+                                <p class="grey">Sales</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="countries">
+                                <div class="round-icon country-ko">KO</div>
+                                <p class="right-number">$45k <span class="growth">
+                                    <i class="fa fa-angle-up"></i>16.2%
+                                </span></p>
+                                <p class="grey">Korea</p>
+
+                            </div>
+                            <div class="sales">
+                                <p class="right-number">42k</p>
+                                <p class="grey">Sales</p>
+                            </div>
+                        </li>
+                    </ul>
+
+                </div>
+                <div class="transactions clearfix">
+                    <div class="deposit">
+                        <h3>Deposit</h3>
+                        <a href="#" class="three-dot grey">View All</a>
+                        <ul>
+                            <li>
+                                <div class="accounts">
+                                    <figure class="rectangle-icon">
+                                        <img src="gumroad.jpeg" alt="gumroad accound logo" class="icon">
+                                    </figure>
+                                    <div class="recicon-content">
+                                        <h5>Gumroad Account</h5>
+                                        <p class="grey">Sell UI Kit</p>
+                                    </div>
+                                </div>
+                                <div class="amt">
+                                    <p class="right-number growth">+$4650</p>
+                                </div>
+                            </li>
+                            <li>
+                                 <div class="accounts">
+                                    <figure class="rectangle-icon">
+                                        <img src="mastercard.png" alt="mastercard accound logo" class="icon">
+                                    </figure>
+                                    <div class="recicon-content">
+                                        <h5>Mastercard</h5>
+                                        <p class="grey">Wallet deposit</p>
+                                    </div>
+                                </div>
+                                <div class="amt">
+                                    <p class="right-number growth">+$92,705</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="accounts">
+                                    <figure class="rectangle-icon">
+                                        <img src="stripe.png" alt="stripe accound logo" class="icon">
+                                    </figure>
+                                    <div class="recicon-content">
+                                        <h5>Stripe Accound</h5>
+                                        <p class="grey">iOS Application</p>
+                                    </div>
+                                </div>
+                                <div class="amt">
+                                    <p class="right-number growth">+$957</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="accounts">
+                                    <figure class="rectangle-icon">
+                                        <img src="USbank.png" alt="American national bank accound logo" class="icon">
+                                    </figure>
+                                    <div class="recicon-content">
+                                        <h5>American Bank</h5>
+                                        <p class="grey">Bank Transfer</p>
+                                    </div>
+                                </div>
+                                <div class="amt">
+                                    <p class="right-number growth">+$6,837</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="accounts">
+                                    <figure class="rectangle-icon">
+                                        <img src="citi.png" alt="citi bank accound logo" class="icon">
+                                    </figure>
+                                    <div class="recicon-content">
+                                        <h5>Bank Account</h5>
+                                        <p class="grey">Wallet deposit</p>
+                                    </div>
+                                </div>
+                                <div class="amt">
+                                    <p class="right-number growth">+$446</p>
+                                </div>
+                            </li>
+
+                        </ul>
+
+
+                    </div>
+                    <div class="withdraw">
+                        <h3>Withdraw</h3>
+                        <a href="#" class="three-dot grey">View All</a>
+                        <ul>
+                            <li>
+                                <div class="accounts">
+                                    <figure class="rectangle-icon">
+                                        <img src="google.png" alt="google accound logo" class="icon">
+                                    </figure>
+                                    <div class="recicon-content">
+                                        <h5>Google Adsense</h5>
+                                        <p class="grey">Paypal deposit</p>
+                                    </div>
+                                </div>
+                                <div class="amt">
+                                    <p class="right-number loss">-$145</p>
+                                </div>
+                            </li>
+                            <li>
+                                 <div class="accounts">
+                                    <figure class="rectangle-icon">
+                                        <img src="git.jpg" alt="Git accound logo" class="icon">
+                                    </figure>
+                                    <div class="recicon-content">
+                                        <h5>GitHub Enterprise</h5>
+                                        <p class="grey">Security & compliance</p>
+                                    </div>
+                                </div>
+                                <div class="amt">
+                                    <p class="right-number growth">-$1870</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="accounts">
+                                    <figure class="rectangle-icon">
+                                        <img src="slack.png" alt="slack accound logo" class="icon">
+                                    </figure>
+                                    <div class="recicon-content">
+                                        <h5>Upgrade Slack Plan</h5>
+                                        <p class="grey">Debit card deposit</p>
+                                    </div>
+                                </div>
+                                <div class="amt">
+                                    <p class="right-number growth">-$450</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="accounts">
+                                    <figure class="rectangle-icon">
+                                        <img src="digitalocean.png" alt="Digital ocean accound logo" class="icon">
+                                    </figure>
+                                    <div class="recicon-content">
+                                        <h5>Digital Ocean</h5>
+                                        <p class="grey">Cloud Hosting</p>
+                                    </div>
+                                </div>
+                                <div class="amt">
+                                    <p class="right-number growth">-$540</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="accounts">
+                                    <figure class="rectangle-icon">
+                                        <img src="aws.png" alt="aws logo" class="icon">
+                                    </figure>
+                                    <div class="recicon-content">
+                                        <h5>AWS Account</h5>
+                                        <p class="grey">Choosing a cloud Platform</p>
+                                    </div>
+                                </div>
+                                <div class="amt">
+                                    <p class="right-number growth">-$21</p>
+                                </div>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+            <div class="fourth-div">
+                    <table>
+                        <tr>
+                            <th>NAME</th>
+                            <th>EMAIL</th>
+                            <th>DATE</th>
+                            <th>SALARY</th>
+                            <th>AGE</th>
+                            <th>STATUS</th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="name">Sally Quinn</p>
+                                <p class="grey">Human Resource Assistant</p>
+                            </td>
+                            <td><p class="name">eebsworth2m@sbwire.com</p></td>
+                            <td><p class="name">09/27/2018</p></td>
+                            <td><p class="name">$19586.23</p></td>
+                            <td><p class="name">27</p></td>
+                            <td><span class="statusTag blue">Current</span></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="name ">Margaret Bowers</p>
+                                <p class="grey">Nuclear Power Engineer</p>
+                            </td>
+                            <td><p class="name">kocrevy0@thetimes.co.uk</p></td>
+                            <td><p class="name">09/23/2016</p></td>
+                            <td><p class="name">$23896.35</p></td>
+                            <td><p class="name">61</p></td>
+                            <td><span class="statusTag green">Professional</span></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="name ">Minnie Roy</p>
+                                <p class="grey">Environmental Specialist</p>
+                            </td>
+                            <td><p class="name">ediehn6@163.com</p></td>
+                            <td><p class="name">10/15/2017</p></td>
+                            <td><p class="name">$18991.67</p></td>
+                            <td><p class="name">59</p></td>
+                            <td><span class="statusTag red">Rejected</span></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="name ">Ralph Leonard</p>
+                                <p class="grey">Sales Representative</p>
+                            </td>
+                            <td><p class="name">dfalloona@ifeng.com</p></td>
+                            <td><p class="name">06/12/2018</p></td>
+                            <td><p class="name">$19252.12</p></td>
+                            <td><p class="name">30</p></td>
+                            <td><span class="statusTag orange">Resigned</span></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="name">Annie Martin</p>
+                                <p class="grey">Operator</p>
+                            </td>
+                            <td><p class="name">sganderton2@tuttocitta.it</p></td>
+                            <td><p class="name">03/24/2018</p></td>
+                            <td><p class="name">$13076.28</p></td>
+                            <td><p class="name">66</p></td>
+                            <td><span class="statusTag lightBlue">Applied</span></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="name">Adeline Day</p>
+                                <p class="grey">Senior Cost Accountant</p>
+                            </td>
+                            <td><p class="name">hnisius4@gnu.org</p></td>
+                            <td><p class="name">08/25/2017</p></td>
+                            <td><p class="name">$10909.52</p></td>
+                            <td><p class="name">33</p></td>
+                            <td><span class="statusTag green">Professional</span></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="name">Lora Jackson</p>
+                                <p class="grey">Geologist</p>
+                            </td>
+                            <td><p class="name">ghoneywood5@narod.ru</p></td>
+                            <td><p class="name">06/01/2017</p></td>
+                            <td><p class="name">$17803.80</p></td>
+                            <td><p class="name">61</p></td>
+                            <td><span class="statusTag blue">Current</span></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="name">Rodney Sharp</p>
+                                <p class="grey">Cost Accountant</p>
+                            </td>
+                            <td><p class="name">dcrossman3@google.co.jp</p></td>
+                            <td><p class="name">12/03/2017</p></td>
+                            <td><p class="name">$12336.17</p></td>
+                            <td><p class="name">22</p></td>
+                            <td><span class="statusTag green">Professional</span></td>
+                        </tr>
+                    </table>
+            </div>
+        </main>
+    </section>
+    <footer clearfix>
+        <p class="grey">© 2023, Copyright</p>
+        <ul>
+            <li>
+                <a href="#">MIT Licence</a>
+            </li>
+            <li>
+                <a href="#">More Themes</a>
+            </li>
+            <li>
+                <a href="#">Documentation</a>
+            </li>
+            <li>
+                <a href="#">Support</a>
+            </li>
+        </ul>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
